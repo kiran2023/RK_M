@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK MART | Orders</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ----------------------------------NAVIGATION MENU BAR----------------------------------- -->
+    <nav class="menu orderMenu">
+
+        <a href="index.html">
+            <h2>RK <span> MART </span></h2>
+        </a>
+
+        <ul>
+            <li> <a href="index.html"> <i class="fa-solid fa-house"></i>Home </a></li>
+
+            <li> <a href="product.html"> <i class="fa-solid fa-bag-shopping"></i>Products </a>
+
+
+                <div class="submenu">
+                    <ul>
+                        <a href="Grocery.html">
+                            <li> <span id="alignMenu"> <i class="fa-solid fa-basket-shopping"></i>Grocery <i
+                                        class="fas fa-caret-right"></i></span>
+
+                                <div class="submenu2">
+                                    <ul>
+                                        <li> <span id="subMenuAlign"> <i class="fa-solid fa-pepper-hot"></i>Fresh
+                                                Vegetables </span></li>
+                                        <li> <span id="subMenuAlign"> <i class="fa-solid fa-apple-whole"></i>Fresh
+                                                Fruits </span></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                        </a>
+                        <a href="Beverges.html">
+                            <li> <span id="alignMenu"> <i class="fa-solid fa-bottle-water"></i>Beverges <i
+                                        class="fas fa-caret-right"></i></span>
+
+                                <div class="submenu2">
+                                    <ul>
+                                        <li> <span id="subMenuAlign"> <i class="fa-solid fa-bottle-droplet"></i>Soft
+                                                Drinks </span> </li>
+                                        <li> <span id="subMenuAlign"> <i class="fa-solid fa-wine-bottle"></i>Soft Drinks
+                                                Can </span> </li>
+                                        <li> <span id="subMenuAlign"> <i
+                                                    class="fa-solid fa-martini-glass-citrus"></i>Energy Drinks </span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                        </a>
+                        <a href="householdProducts.html">
+                            <li> <span id="alignMenu"> <i class="fa-solid fa-door-open"></i>Household <i
+                                        class="fas fa-caret-right"></i></span>
+
+                                <div class="submenu2">
+                                    <ul>
+                                        <li><span id="subMenuAlign"> <i class="fa-solid fa-couch"></i>Home Utensils
+                                            </span> </li>
+                                        <li><span id="subMenuAlign"> <i class="fa-solid fa-utensils"></i>Kitchen
+                                                Utensils </span> </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </li>
+            <li> <a href="contact.html"> <i class="fa-solid fa-address-book"></i>Contact </a> </li>
+            <li  class="active order"> <a href="myOrders.html"> <i class="fa-solid fa-box"></i>My Orders </a> </li>
+
+            <div id="mainPageCart">
+                <a href="cart.html"> <i class="fa-sharp fa-solid fa-cart-shopping"></i> </a>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- --------------------------Order Section----------------------------- -->
+    <div class="orders">
+        <h2 class="common-heading">My Orders</h2>
+    </div>
+    <div id="orderPage">
+        <div class="container orderDataBox">
+            <div class="orderBox">
+                <div class="orderStatusData">
+                    <p id="OrderId"> <b> Order Id: </b> 6010</p>
+                    <p id="OrderStatus"> <b> Order: </b> Processing</p>
+                    <button class="btn" id="cancelOrder">Cancel Order</button>
+                </div>
+                <hr>
+                <div class="orderDescriptionData order-grid order-grid-four-column">
+                    <div class="productImageData">
+                        <img src="images/HouseHoldProducts/aquaguard.png" alt="">
+                    </div>
+                    <div class="productDetails">
+                        <p id="productName">Aquaguard SkyLand 18 Ltr</p>
+                        <div class="productDetailsData order-grid order-grid-two-column">
+                            <p id="productQuantity"> <b>Quantity : </b> 1</p>
+                            <p id="productPrice"> <b> Price : </b> 29,999 </p>
+                        </div>
+                    </div>
+                    <div class="orderStatus"> <b> Status </b> <p>Processing</p></div>
+                    <div class="deliveryExcepted"> <b> Delivery Excepted by</b> 28 Feb 2022</div>
+                    <div class="total"> <b> Total </b> 29,999</div>
+                </div>
+                
+                <hr>
+                <div class="orderDescriptionData order-grid order-grid-four-column">
+                    <div class="productImageData">
+                        <img src="images/HouseHoldProducts/bajajFan.png" alt="">
+                    </div>
+                    <div class="productDetails">
+                        <p id="productName">BAJAJ Crest Neo</p>
+                        <div class="productDetailsData order-grid order-grid-two-column">
+                            <p id="productQuantity"> <b>Quantity : </b> 2</p>
+                            <p id="productPrice"> <b> Price : </b> 14,999 </p>
+                        </div>
+                    </div>
+                    <div class="orderStatus"> <b> Status </b> <p>Processing</p></div>
+                    <div class="deliveryExcepted"> <b> Delivery Excepted by</b> 28 Feb 2022</div>
+                    <div class="total"> <b> Total </b> 29,998</div>
+                </div>
+               
+                <hr>
+                <div class="orderDescriptionData order-grid order-grid-four-column">
+                    <div class="productImageData">
+                        <img src="images/HouseHoldProducts/electricInduction.png" alt="">
+                    </div>
+                    <div class="productDetails">
+                        <p id="productName">Prestige Atlas Induction Cooktop</p>
+                        <div class="productDetailsData order-grid order-grid-two-column">
+                            <p id="productQuantity"> <b>Quantity : </b> 1</p>
+                            <p id="productPrice"> <b> Price : </b> 11,999 </p>
+                        </div>
+                    </div>
+                    <div class="orderStatus"> <b> Status </b> <p>Processing</p></div>
+                    <div class="deliveryExcepted"> <b> Delivery Excepted by</b> 28 Feb 2022</div>
+                    <div class="total"> <b> Total </b> 11,999</div>
+                </div>
+                <hr>
+                <div class="orderStatusData">
+                    <button class="btn" id="cancelOrder">Cancel Order</button>
+                    <p id="OrderId"> <b> Order Id: </b> 6010</p>
+                    <p id="payment"> <b>Cash On Delivery</b> </p>
+                    <p id="OrderStatus"> <b> Sub Total: </b> ₹71,996 </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
