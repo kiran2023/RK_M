@@ -1,7 +1,7 @@
 # RK_M - FrontEnd
 
-RK Mart is an online shopping site where it caters every need of your family. 
-A self-service shop offering a wide range of variety of products in various categories such as Vegetables and household, fruits and Beverages.
+RK Mart is an online shopping site that caters to every need of your family. 
+A self-service shop offering a wide range of variety of products in various categories such as Vegetables and household, fruits, and Beverages.
 
 # Filtration
 
