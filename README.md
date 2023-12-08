@@ -3,6 +3,8 @@
 RK Mart is an online shopping site that caters to every need of your family. 
 A self-service shop offering a wide range of variety of products in various categories such as Vegetables and household, fruits, and Beverages.
 
+Technology Used - HTML, CSS, JavaScript
+
 # Filtration
 
 It has major filtration features where users can search the products
