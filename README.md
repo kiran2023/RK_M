@@ -23,12 +23,12 @@ It has major filtration features where users can search the products
 
 # Desktop View
 
-<img width="930" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/563e5083-3528-4ea5-9bf1-c8d21f387911" />
+<img width="920" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/563e5083-3528-4ea5-9bf1-c8d21f387911" />
 
-<img width="939" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/b315cd74-0817-49f7-8a31-10faece12cf2">
+<img width="920" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/b315cd74-0817-49f7-8a31-10faece12cf2">
 
-<img width="939" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/b9a0b51a-b6ad-4e4f-9b95-fb7599328d94">
+<img width="920" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/b9a0b51a-b6ad-4e4f-9b95-fb7599328d94">
 
-<img width="921" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/54ed43f5-ef90-4ed9-904a-c0cb6ece124a">
+<img width="920" alt="image" src="https://github.com/kiran2023/RK_M/assets/88279441/54ed43f5-ef90-4ed9-904a-c0cb6ece124a">
 
 # Visit👉 https://kiran2023.github.io/RK_M/
